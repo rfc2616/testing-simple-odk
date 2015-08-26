@@ -1,57 +1,62 @@
 {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -81.32171813,
-      28.36021183
-    ]
-  },
-  "properties": {
-    "start": "2015-08-25T22:19:33.829+01",
-    "end": "2015-08-25T22:24:44.559+01",
-    "today": "2015-08-25",
-    "deviceid": 861373020279765,
-    "group_location": {
-      "location": {
-        "latitude": 28.36021183,
-        "longitude": -81.32171813,
-        "altitude": 1,
-        "precision": 5
-      }
-    },
-    "exact_location": "yes",
-    "photos": {
-      "picture": {
-        "url": "https://s3.amazonaws.com/simpleodk.rfc2616.testing-simple-odk/1a6defc8-dc1f-4247-8b7c-204a92c94918/1440537784451.jpg",
-        "originalFilename": "1440537784451.jpg"
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.32171813,
+          28.36021183
+        ]
       },
-      "caption": "Tom"
-    },
-    "region": "south_central",
-    "village": "shorinab",
-    "area": "middle_rupununi",
-    "shorinab_settlement": "shorinab",
-    "placename": "Sprintmanora",
-    "landtitle": "yes",
-    "happening": "fishing",
-    "who": "Tom",
-    "permission": "no_permission",
-    "landtype": "savannah",
-    "impacts": "fishing",
-    "other_info": "Nope",
-    "people": "other",
-    "people_other": "Rob",
-    "council_informed": "no",
-    "scpda_request": "no",
-    "public": "public",
-    "meta": {
-      "instanceId": "uuid:1a6defc8-dc1f-4247-8b7c-204a92c94918",
-      "instanceName": "Aug-25 22:19 shorinab fishing",
-      "formId": "monitoring",
-      "version": 5,
-      "deviceId": "imei:861373020279765",
-      "submissionTime": "2015-08-25T22:00:26.139Z"
+      "properties": {
+        "start": "2015-08-25T22:19:33.829+01",
+        "end": "2015-08-25T22:24:44.559+01",
+        "today": "2015-08-25",
+        "deviceid": 861373020279765,
+        "group_location": {
+          "location": {
+            "latitude": 28.36021183,
+            "longitude": -81.32171813,
+            "altitude": 1,
+            "precision": 5
+          }
+        },
+        "exact_location": "yes",
+        "photos": {
+          "picture": {
+            "url": "https://s3.amazonaws.com/simpleodk.rfc2616.testing-simple-odk/1a6defc8-dc1f-4247-8b7c-204a92c94918/1440537784451.jpg",
+            "originalFilename": "1440537784451.jpg"
+          },
+          "caption": "Tom"
+        },
+        "region": "south_central",
+        "village": "shorinab",
+        "area": "middle_rupununi",
+        "shorinab_settlement": "shorinab",
+        "placename": "Sprintmanora",
+        "landtitle": "yes",
+        "happening": "fishing",
+        "who": "Tom",
+        "permission": "no_permission",
+        "landtype": "savannah",
+        "impacts": "fishing",
+        "other_info": "Nope",
+        "people": "other",
+        "people_other": "Rob",
+        "council_informed": "no",
+        "scpda_request": "no",
+        "public": "public",
+        "meta": {
+          "instanceId": "uuid:1a6defc8-dc1f-4247-8b7c-204a92c94918",
+          "instanceName": "Aug-25 22:19 shorinab fishing",
+          "formId": "monitoring",
+          "version": 5,
+          "deviceId": "imei:861373020279765",
+          "submissionTime": "2015-08-25T22:00:26.139Z"
+        }
+      }
     }
-  }
+  ]
 }
