@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -81.32136659,
+      28.36026463
+    ]
+  },
+  "properties": {
+    "Location_of_Observation": {
+      "latitude": 28.36026463,
+      "longitude": -81.32136659,
+      "altitude": -20,
+      "precision": 5
+    },
+    "Location_description": "Limit of clearing",
+    "Date_and_time_of_observation": "2015-08-26T19:21:00.000+01",
+    "Add_a_photo": {
+      "url": "https://s3.amazonaws.com/simpleodk.rfc2616.testing-simple-odk/772a7e24-3fc0-45da-a037-dc9eefb48d2e/1440613310538.jpg",
+      "originalFilename": "1440613310538.jpg"
+    },
+    "Caption_for_this_photo": "Tracks",
+    "Type_of_activity": "crossing",
+    "Notes": "Machinery",
+    "Should_this_data_be_public_or_": "private",
+    "start": "2015-08-26T19:20:03.229+01",
+    "end": "2015-08-26T19:22:22.729+01",
+    "deviceid": 861373020279765,
+    "meta": {
+      "instanceId": "uuid:772a7e24-3fc0-45da-a037-dc9eefb48d2e",
+      "instanceName": "S_O_D_K_test_form",
+      "formId": "S_O_D_K_test_form",
+      "deviceId": "imei:861373020279765",
+      "submissionTime": "2015-08-26T18:25:18.261Z"
+    }
+  }
+}
